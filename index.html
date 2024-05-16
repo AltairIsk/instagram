@@ -1,0 +1,47 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Document</title> 
+    <link rel="stylesheet" href="style.css"> 
+</head> 
+<body> 
+    <div class="avaBox"> 
+        <img id="imgpost" class="ava1" src="Insta-removebg-preview.png"> 
+        <a><b>Aldiargram</b></a> 
+    </div> 
+    <nav> 
+    </nav> 
+    <section id="posts"> 
+        <div id="postsBox"> 
+            <div id="firstPost" class="post"> 
+                <div class="avaBox"> 
+                    <img id="imgpost" class="ava" src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/491841211.jpg?k=a53a1242bc91427412a9bf1673c2aef161e81b77310a134f8d921b459328b119&o=&hp=1"> 
+                    <b class="name">Adina</b> 
+                </div> 
+                <img class="img" src="Spartak.jpg"> 
+                <div class="likes"> 
+                    <img class="like" src="orangelike-removebg-preview.png" onclick="likePost(this)"> 
+                    <b class="like"></b><span class="like-count">78000</span> 
+                </div> 
+                <div class="text"> 
+                    Всем привет! Спартак сегодня в ударе! 
+                </div> 
+                <h1 id="bigtext" class="yet">Пока нет комментариев</h1>
+                <div class="formParent">
+                    <form >
+                        <input id="inputName" placeholder="Добавить комментарий">
+                        <div class="textcenter">
+                            <div class="textcenter">
+                                <a onclick="Send()">Отправить</a>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>     
+        </div> 
+    </section> 
+    <script src="script.js"></script> 
+</body> 
+</html>

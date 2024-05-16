@@ -1,0 +1,91 @@
+body{ 
+    margin: 0; 
+    background-color: black;
+    font-family: Arial, sans-serif;
+} 
+nav{ 
+    height: 60px; 
+    display: flex; 
+    align-items: center; 
+    padding: 0 20%; 
+} 
+a{ 
+    display: flex; 
+    align-self: center; 
+    width: auto; 
+    font-size: 30px; 
+    color: white;
+} 
+#posts{ 
+    display: flex; 
+    justify-content: center; 
+} 
+#postsBox{ 
+    width: 40%; 
+} 
+.img{ 
+    width: 100%; 
+} 
+.post{ 
+    font-size: 30px; 
+    border: 1px solid orange; 
+    padding: 50px; 
+    margin: 30px 0; 
+} 
+.ava{ 
+    width: 50px; 
+    height: 50px; 
+    border-radius: 100%; 
+    margin-right: 20px; 
+} 
+.ava1{ 
+    width: 100px; 
+    height: 70px; 
+    border-radius: 100%; 
+    margin-right: 20px; 
+} 
+.avaBox{ 
+    display: flex; 
+    align-items: center; 
+} 
+.likes{ 
+    display: flex; 
+    align-items: center; 
+    color: white;
+} 
+.like{ 
+    cursor: pointer;
+    color: white;
+    width: 40px; 
+    height: 40px;
+}
+.name{ 
+    color: white;
+}
+.text{
+    color: white;
+    font-size: 30px;
+}
+.textcenter{
+    margin-top: 20px;
+    text-align: center;
+}
+input{
+    display: block;
+    font-size: 30px;
+    padding: 10px 20px;
+    border: 0;
+}
+.formParent{
+    padding: 35px 0 0 0;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.yet{
+    margin-top: 50px;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+}
